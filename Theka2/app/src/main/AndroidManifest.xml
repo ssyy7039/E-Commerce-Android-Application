@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.shivam.theka2"
+    tools:ignore="MissingPrefix" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/kick"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/kick"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon" >
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2" >
+        </activity>
+        <activity android:name=".Orderproducts" />
+        <activity android:name=".confirmorderdetails" />
+        <activity android:name=".cartdetails" />
+        <activity android:name=".Otp" />
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Termscondition" />
+        <activity android:name=".Appinfo" />
+        <activity android:name=".Allorders" />
+        <activity android:name=".Alldrinks" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Drinkdetails" />
+        <activity android:name=".Chat" />
+        <activity android:name=".Myaccount" />
+        <activity android:name=".Updatedetails" />
+        <activity android:name=".Forgotpassword" />
+        <activity android:name=".Editcart" />
+        <activity android:name=".Register" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signin" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,3 @@
+include ':Shop'
+include ':app'
+rootProject.name = "Theka2"

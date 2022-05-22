@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/snackbarcart"
+    tools:context=".cartdetails">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cartshopname"
+        android:text="Loading Shopname.."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_weight="0"
+        android:background="#ff5722"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cartrecyclerview"
+        android:layout_weight="20"
+        android:layout_marginTop="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cartprice"
+            android:text="Total Price="
+            android:textSize="25dp"
+            android:layout_weight="50"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:visibility="gone"
+            android:textColor="#ffffff"
+            android:background="#ff5722"/>
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/placeorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Place order"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+       android:textColor="#ffffff"
+        android:backgroundTint="#7b0001"
+        android:visibility="gone"
+        android:layout_weight="0"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="oops! Your Cart is Empty"
+        android:textSize="30dp"
+        android:textColor="#7b0001"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:id="@+id/nodatacart"
+        android:layout_marginTop="-420dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

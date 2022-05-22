@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Orderdetails"
+    android:orientation="vertical"
+    android:id="@+id/orderdetailssnackbar"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+    android:id="@+id/time2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Time"
+    android:textSize="20sp"
+    android:gravity="right"
+    android:textColor="#ff5722"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Id::"
+            android:layout_weight="10"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="#7b0001"/>
+        <TextView
+            android:id="@+id/orderid2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order id"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:layout_weight="90"
+            android:textColor="#ff5722"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Details:"
+        android:textSize="29sp"
+        android:gravity="left"
+        android:textColor="#7b0001"
+        android:layout_marginTop="5dp"
+        android:layout_weight="5"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/name5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="#ff5722"
+        android:textStyle="normal"
+        android:layout_weight="2"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/Contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="#ff5722"
+        android:textStyle="normal"
+        android:layout_weight="2"
+        android:layout_marginLeft="80dp" />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textColor="#ff5722"
+        android:textStyle="italic"
+        android:layout_weight="2"
+        android:layout_marginLeft="80dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Product Description:"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:textStyle="bold"
+        android:layout_weight="5"
+        android:layout_marginTop="5dp"
+        android:textColor="#7b0001"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drink Name::"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="#7b0001"
+            android:layout_weight="10"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/drinkname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="drink name"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:layout_gravity="right"
+            android:layout_weight="50"
+            android:textColor="#ff5722"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drink Size(ml)::"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="#7b0001"
+            android:layout_weight="10"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/drinksize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="drink size"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:layout_weight="50"
+            android:textColor="#ff5722"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:gravity="left"
+            android:text="Quantity(Bottles)::"
+            android:textColor="#7b0001"
+            android:layout_weight="10"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/drinkquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:layout_weight="50"
+            android:textColor="#ff5722"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drink Price(Rs.)::"
+            android:textSize="20sp"
+            android:gravity="left"
+            android:textColor="#7b0001"
+            android:layout_weight="10"
+            android:layout_marginLeft="25dp"/>
+        <TextView
+            android:id="@+id/drinkprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="drink price"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:layout_weight="50"
+            android:textColor="#ff5722"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Amount to take"
+            android:textColor="#7b0001"
+            android:textSize="20sp"
+            android:layout_weight="10"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/Amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount"
+            android:textSize="20sp"
+            android:gravity="right"
+            android:textColor="#7b0001"
+            android:layout_weight="50"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Before cancelling or deleting the order kindly contact with the customers "
+        android:textSize="15sp"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:textStyle="italic"
+        android:layout_weight="12"
+        android:layout_marginTop="12dp"/>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancel/Delete Order"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#7b0001"
+        android:textColor="#fff"
+        android:shadowRadius="2"
+        android:layout_marginBottom="20dp">
+
+
+    </Button>
+
+    </LinearLayout>
+
+</ScrollView>

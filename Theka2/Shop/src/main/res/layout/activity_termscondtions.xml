@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Termscondtions"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="These terms must be accepted by you when you use Theka Application:
+
+"
+            android:textColor="#7b0001"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1) You must not accept these terms if:"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You are not lawfully entitled to use Theka App in the country in which you are located or reside
+
+If you are not of legal age to bind agreement with us
+
+"
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2) If any change made to Terms and Conditions:
+"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theka team can modify Terms and conditions at any time, in sole discretion. If Theka team will be modifying any content, team will let you know through app. It's a major factor that you do agree to modified Terms and conditions. If you don't agree to be bound by the modified Terms, then you can't use the services any more. Over Srvices are evolving over time we can change or close any services at any time without any notice, at our sole discretion.
+
+"         android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3) Privacy :"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your privacy is very important to us. We will assure you that your any private data will not be disclosed anywhere at any cost. If you have any questions or concerns about terms and conditions, please contact us at kicktheli6@gmail.com
+
+"
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="legal Activity"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not use Kick app to promote any illegal activities.
+"
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harmful Activities"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not distribute content that harms or interferes with the operation of the networks,Servers, or other infrastructure of Kick."
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hacking Personal Information"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not access other user’s account without their permission. Do not disturb other people’s personal information like email Id, passwords, play store or app store credentials without their permission.
+
+"
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOTE: In case of any illegal activities from user, we can block their account permanently."
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refund Policy:"
+            android:textColor="#7b0001"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="1) For Restaurant Owner:"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IN case of payment did by mistake or in case of any payment related issues from Google Play Store or App Store, we are not entitled to refund any amount. If it’s very crucial and any genuine problem is seen in our system than we can look into it and resolve the issue or issue refund."
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2) For Customer of Restaurant:"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IN case of payment did by mistake or in case of any payment related issues for food ordered with Kick, we are not entitled to refund any amount. Shop Owner will be responsible for issue refund to customer for placed order in any case.
+
+"
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Approval:"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Theka is not responsible for any kind of order cancellation or approval. Delivery time, Taxes, Delivery Charges and Delivery times are decided by the Shop owner. Shop owners are only responsible for any kind of updates and changes of extra charges.Kick is not taking any kind of taxes or extra charges from the customers.
+"
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Communication Problems between Customer and Restaurant:"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In case of misbehaviour, miscommunication or any illegal activities done by customer and Shop registered here, we will not be responsible for any such activities as we are not taking any proof of their identity."
+            android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blocking or Deleting your Account"
+            android:textColor="#7b0001"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If we notice any illegal activity then we have all rights to permanently Block your account without any notice and reasons."    android:textColor="#ff5722"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Theka"
+            android:textSize="50dp"
+            android:textColor="#7b0001"
+            android:textStyle="bold"
+            android:layout_marginLeft="120dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android Version 1.0.0"
+            android:textStyle="italic"
+            android:textColor="#7b0001"
+            android:layout_marginLeft="90dp"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"/>
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

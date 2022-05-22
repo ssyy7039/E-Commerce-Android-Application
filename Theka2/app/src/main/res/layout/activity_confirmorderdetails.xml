@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".confirmorderdetails"
+    android:id="@+id/confirm">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Shopnameorder"
+        android:text="Shopname"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_weight="0"
+        android:background="#ff5722"/>
+
+    <EditText
+        android:id="@+id/nameorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:inputType="textPersonName"
+        android:textColor="#ff5722"
+        android:textColorHint="#EC6F47"
+        android:textFontWeight="2" />
+    <EditText
+        android:id="@+id/contactorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Your ContactNo."
+        android:textColor="#ff5722"
+        android:layout_weight="0"
+        android:inputType="phone"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#EC6F47"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        />
+    <EditText
+        android:id="@+id/nameaddress"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:ems="10"
+        android:hint="Enter Delivery Address"
+        android:textColor="#ff5722"
+        android:layout_weight="0"
+        android:inputType="textImeMultiLine"
+        android:textColorHint="#EC6F47"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/placeorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="#7b0001"
+        android:foregroundGravity="bottom"
+        android:text="Confirm order"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff5722"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="NOTE::    Payment will be done by cash or online at the time of delivery depend on the Shopkeeper. "/>
+
+</LinearLayout>

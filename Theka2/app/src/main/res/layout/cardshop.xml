@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/myCardView2"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30">
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ks"/>
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="280dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="70"
+    >
+
+    <TextView
+        android:id="@+id/shopname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Loading shopname......."
+        android:layout_weight="30"
+        android:textColor="#7b0001"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+            android:id="@+id/shopcontact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Loading Contact......."
+            android:textColor="#7b0001"
+        android:layout_weight="30"
+            android:layout_marginTop="4dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_weight="40"
+            android:layout_gravity="bottom|right"
+            android:gravity="bottom|right"
+            android:text="Loading Location..............."
+            android:textColor="#FF5722"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:id="@+id/shoplocation"/>
+</LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

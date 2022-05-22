@@ -1,0 +1,191 @@
+{
+  "project_info": {
+    "project_number": "712904152317",
+    "firebase_url": "https://theka2.firebaseio.com",
+    "project_id": "theka2",
+    "storage_bucket": "theka2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712904152317:android:2d132082b7f92238049a94",
+        "android_client_info": {
+          "package_name": "com.example.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712904152317-9vm51m6r8qfhujsu0hg0emoan3crk66d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shop",
+            "certificate_hash": "14a905789c7f636620784510060d86d85e240f23"
+          }
+        },
+        {
+          "client_id": "712904152317-dktpr3keg0oc2hsv4btgitm8d0ab5t0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shop",
+            "certificate_hash": "d20eb83603d40e19f0b20712653f226735adc324"
+          }
+        },
+        {
+          "client_id": "712904152317-j4fg5st67hdg156c8f3qboqct3b4lo78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbAj5qp1wXW6J7ZFeaKZDnbzWKtS8XtVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712904152317-j4fg5st67hdg156c8f3qboqct3b4lo78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712904152317:android:6f3a329d4620bbf9049a94",
+        "android_client_info": {
+          "package_name": "com.example.theka2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712904152317-qsh62cb9m60jomphma3umlr3n7j8v8n4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theka2",
+            "certificate_hash": "14a905789c7f636620784510060d86d85e240f23"
+          }
+        },
+        {
+          "client_id": "712904152317-3pdpbffu1id29lijcqdaoaurmall4ogk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theka2",
+            "certificate_hash": "d20eb83603d40e19f0b20712653f226735adc324"
+          }
+        },
+        {
+          "client_id": "712904152317-j4fg5st67hdg156c8f3qboqct3b4lo78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbAj5qp1wXW6J7ZFeaKZDnbzWKtS8XtVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712904152317-j4fg5st67hdg156c8f3qboqct3b4lo78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712904152317:android:6711cd3cf48772c8049a94",
+        "android_client_info": {
+          "package_name": "com.shivam.shop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712904152317-a8pkquv7oj89tt0cehr2k67aphluiff3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivam.shop",
+            "certificate_hash": "14a905789c7f636620784510060d86d85e240f23"
+          }
+        },
+        {
+          "client_id": "712904152317-r5t9hrjqflluoc6hpobijm67ldj3j4rh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivam.shop",
+            "certificate_hash": "d20eb83603d40e19f0b20712653f226735adc324"
+          }
+        },
+        {
+          "client_id": "712904152317-j4fg5st67hdg156c8f3qboqct3b4lo78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbAj5qp1wXW6J7ZFeaKZDnbzWKtS8XtVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712904152317-j4fg5st67hdg156c8f3qboqct3b4lo78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712904152317:android:c0db9adf120e197b049a94",
+        "android_client_info": {
+          "package_name": "com.shivam.theka2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712904152317-pm22rm9jnvoeb3dut8viok75pqqpv9uv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivam.theka2",
+            "certificate_hash": "14a905789c7f636620784510060d86d85e240f23"
+          }
+        },
+        {
+          "client_id": "712904152317-7595q27eb06f3hajunjjfl2j5l5h37kr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivam.theka2",
+            "certificate_hash": "d20eb83603d40e19f0b20712653f226735adc324"
+          }
+        },
+        {
+          "client_id": "712904152317-j4fg5st67hdg156c8f3qboqct3b4lo78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbAj5qp1wXW6J7ZFeaKZDnbzWKtS8XtVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712904152317-j4fg5st67hdg156c8f3qboqct3b4lo78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

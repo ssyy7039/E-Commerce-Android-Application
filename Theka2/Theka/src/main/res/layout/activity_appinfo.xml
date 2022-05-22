@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Appinfo"
+    android:orientation="vertical"
+    android:id="@+id/appinfosnackbar">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Love to help yours"
+        android:textSize="30sp"
+        android:textColor="#7b0001"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_weight="20"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="20"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click on this icon to visit the profile page.you can explore yourself by just on click"
+            android:textSize="19dp"
+            android:textColor="#ff5722"
+            android:layout_weight="15"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_weight="20">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:src="@drawable/ic_feedback_black_24dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click on this icon to connect with us.you can connect with us by email or facebook"
+            android:textSize="19dp"
+            android:textColor="#ff5722"
+            android:layout_weight="15"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We will love your feedback.please coonect with us if you face any difficulty or found a bug."
+        android:textColor="#7b0001"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="5"
+        android:textSize="15dp"/>
+    <Button
+        android:id="@+id/term"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to read Terms and Conditions"
+        android:background="#7b0001"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:layout_marginRight="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Theka - The Liquor shop"
+        android:textSize="30dp"
+        android:textColor="#7b0001"
+        android:textStyle="bold"
+        android:layout_weight="7"
+        android:layout_gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Version 1.0.0"
+        android:textStyle="italic"
+        android:textColor="#7b0001"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp"/>
+    </LinearLayout>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical"
+    android:id="@+id/profilsnackbar">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        android:background="@android:color/transparent"
+        android:src="@drawable/theka3"
+        android:layout_gravity="center"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="25">
+        <Button
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Personal Details"
+            android:textColor="#ffffff"
+            android:backgroundTint="#7b0001"
+            android:textStyle="bold"
+             android:layout_weight="50"
+            android:layout_marginLeft="20dp"
+
+            >
+        </Button>
+        <Button
+            android:id="@+id/orders"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Customer orders"
+            android:textColor="#ffffff"
+            android:backgroundTint="#7b0001"
+            android:textStyle="bold"
+            android:layout_weight="50"
+            android:layout_marginRight="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="25"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/logout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="logout"
+            android:textColor="#ffffff"
+            android:backgroundTint="#7b0001"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="50"
+            />
+        <Button
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="app info"
+            android:textColor="#ffffff"
+            android:backgroundTint="#7b0001"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_weight="50"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

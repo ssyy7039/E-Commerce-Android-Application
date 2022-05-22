@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Updatedetails"
+    android:orientation="vertical"
+    android:id="@+id/updatedetailsnackbar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:id="@+id/NAME"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your name"
+        android:textColorHint="#ff5722"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/CONTACT"
+        android:hint="Enter your contact"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ff5722"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/EMAIL"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your emailid"
+        android:textColorHint="#ff5722"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/PASSWORD"
+        android:hint="Enter your new password"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ff5722"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/SHOPNAME"
+        android:layout_marginTop="10dp"
+        android:hint="Enter your shop name"
+        android:textColorHint="#ff5722"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/GSTNO"
+        android:hint="Enter your shop GST number"
+        android:textColorHint="#ff5722"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/Address"
+        android:hint="Enter your address"
+        android:textColorHint="#ff5722"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SUBMIT"
+        android:text="Submit"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:backgroundTint="#7b0001"
+        android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+</ScrollView>
